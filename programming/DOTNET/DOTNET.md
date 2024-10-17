@@ -1,0 +1,14 @@
+---
+tags:
+  - programming
+  - dotnet
+---
+- [[Access Modifiers]]
+- [[Accessibility Levels]]
+	- [[public]]
+	- [[private]]
+	- [[protected]]
+	- [[internal]]
+	- [[protected internal]]
+	- [[private protected]]
+	- [[record]]
