@@ -11,7 +11,7 @@ All types and type members have an accessibility level. The accessibility level 
 - [[internal]]: Only code in the same [[assembly]] can access this type or member.
 - [[protected internal]]: Only code in the same [[assembly]] _or_ in a derived class in another assembly can access this type or member.
 - [[private protected]]: Only code in the same [[assembly]] _and_ in the same class or a derived class can access the type or member.
-- [[file]]: Only code in the same file can access the type or member.
+- file: Only code in the same file can access the type or member.
 
 The [[record]] modifier on a type causes the compiler to synthesize extra members. The `record` modifier doesn't affect the default accessibility for either a `record class` or a `record struct`.
 ## Summary table

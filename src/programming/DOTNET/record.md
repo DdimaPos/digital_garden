@@ -61,7 +61,7 @@ public record struct Point
 
 - **Positional Property Definition**: Easy syntax for defining properties.
 - **[[Value Equality]]**: Equality in record types is based on the values of their properties, though for reference-type properties, equality is determined by reference identity rather than the actual contents of the reference.
-- **[[#Nondestructive Mutation]]**: Create modified copies of records without changing the original.
+- **[[record#Nondestructive mutation]]**: Create modified copies of records without changing the original.
 - **Display Formatting**: Built-in formatting for better display in debugging or logs.
 - **Inheritance Support**: Records can be part of inheritance hierarchies.
 
