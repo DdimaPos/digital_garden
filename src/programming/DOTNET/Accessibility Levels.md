@@ -37,4 +37,4 @@ Nested types, which are members of other types, can have declared accessibilitie
 If a class or struct is modified with the [[record]] keyword modifier, then the same access modifiers are allowed.  
 Also, with the [[record]] modifier the default member accessibility is still `private` both for class and the struct.
 
-The accessibility of a nested type depends on its [[accessibility domain]], which is determined by both the declared accessibility of the member and the accessibility domain of the immediately containing type. However, the accessibility domain of a nested type cannot exceed that of the containing type.
+The accessibility of a nested type depends on its accessibility domain, which is determined by both the declared accessibility of the member and the accessibility domain of the immediately containing type. However, the accessibility domain of a nested type cannot exceed that of the containing type.

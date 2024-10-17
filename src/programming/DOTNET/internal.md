@@ -12,7 +12,7 @@ class SampleClass
     internal int x;
 }
 ```
-Internal types or members are accessible only within **files in the same [[assembly]]**
+Internal types or members are accessible only within **files in the same assembly**
 
 # Usage
 A common use of internal access is in component-based development because it enables a group of components to cooperate in a private manner without being exposed to the rest of the application code.

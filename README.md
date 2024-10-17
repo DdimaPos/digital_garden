@@ -7,7 +7,7 @@ To build a html version of it, you'll need to get deno.
 pacman -Sy deno
 ```
 
-After that, run the `./maca.sh` script which uses the maca tool
+After that, run the `./macana.sh` script which uses the macana tool
 to generate a static website out of the notes and places it
 in the gitignored `html/` directory. copy it wherever you need.
 
