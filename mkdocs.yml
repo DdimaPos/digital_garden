@@ -1,4 +1,4 @@
-site_name: obsidian-mkdocs template
+site_name: Programming Cave | Digital Garden
 
 theme:
     name: 'material'
@@ -7,19 +7,19 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
-      accent: indigo
+      primary: pink  
+      accent: indigo 
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-sunny
         name: Switch to dark mode
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
-      accent: blue
+      primary: indigo
+      accent: teal  
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to light mode
 
 # Extensions
