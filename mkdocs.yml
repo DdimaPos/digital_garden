@@ -58,6 +58,7 @@ plugins:
   - search
   - roamlinks
   - tags
+  - info
   - rss:
       match_path: blog/posts/.*
 
