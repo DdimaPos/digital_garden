@@ -1,26 +1,33 @@
 site_name: Programming Cave | Digital Garden
 
 theme:
-    name: 'material'
-    palette:
-
+  name: 'material'
+  logo: https://avatars.githubusercontent.com/u/185125504?s=200&v=4
+  palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink  
-      accent: indigo 
+      primary: pink
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
-      accent: teal  
+      accent: teal
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+
+extra:
+  homepage: https://github.com/prcave
+  generator: false
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/prcave
+      name: We on GitHub
 
 # Extensions
 markdown_extensions:
@@ -44,24 +51,12 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
   - toc:
       permalink: true
 
 plugins:
   - search
   - roamlinks
-  - blog
   - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
-
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://unpkg.com/mermaid/dist/mermaid.min.js 
+      match_path: blog/posts/.*
+     
