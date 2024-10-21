@@ -3,6 +3,7 @@ tags:
   - programming
   - dotnet
   - OOP
+title: bla bla bla
 ---
 # Definition
 The `internal` keyword is an [[Access Modifiers]] for types and type members
@@ -19,3 +20,4 @@ A common use of internal access is in component-based development because it ena
 >[!warning]
 >It is an error to reference a type or a member with internal access outside the assembly within which it was defined.
 
+![[genetic-algorithm-svgrepo-com.svg]]
