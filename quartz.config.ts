@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Programming Cave",
-    pageTitleSuffix: "Digital garden",
+    pageTitleSuffix: "|Digital Garden",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
